@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    width: 100%;
+
+}
+
+.ul__menu {
+    display: flex;
+    gap: 66px;
+    padding-right: 159px;
+    font-family: "Montserrat-SemiBold";
+    color: var(--color-1);
+
+
+    li{
+        list-style: none;
+    }
+}
+
+.divlogo{
+    top: 5px;
+    left: 5px;
+}
