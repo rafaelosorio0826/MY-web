@@ -33,3 +33,40 @@
     top: 5px;
     left: 5px;
 }
+
+.section__home {
+    background-image: linear-gradient(#376e4072, #071917d5), url("../storage/img/FondoPlaneta.jpg");
+    background-image: linear-gradient(var(--color-2), var(--color-3)100%), var(--banner-1);
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+    height: 140svh;
+
+
+}
+.article__home {
+    width: 626px;
+    height: 360px;
+    position: relative;
+    left: 22svw;
+    top: 47svh;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: var(--color-1);
+}
+
+.article__home span {
+    font-size: 28px;
+    font-family: "Montserrat-Medium";
+}
+.article__home h1{
+    font-size: 75px;
+    font-family: "Montserrat-Medium";
+}
+
+.article__home p {
+    width: 340px;
+    font-family: "Montserrat-SemiBold";
+}
+
