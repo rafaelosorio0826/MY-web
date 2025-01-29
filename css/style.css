@@ -1,3 +1,5 @@
+@import url('../css/variable.css');
+
 *{
     padding: 0;
     margin: 0;
@@ -77,6 +79,7 @@
     background-position: center ;
     background-repeat: no-repeat;
     height: 140svh;
+    
 
 
 }
@@ -104,5 +107,85 @@
 .article__home p {
     width: 340px;
     font-family: "Montserrat-SemiBold";
+}
+
+
+.section__icon{
+    background-color: var(--color-3);
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+@media (max-width: 960px){
+    .header{
+        padding: 15px;
+
+    }
+
+    .ul__menu{
+        gap: 15px;
+        padding-right: 15px;
+    }
+
+    .section__home{
+        display: flex;
+        justify-content: space-around;
+    }   
+
+    .article__home{
+        left: 0;
+    }
+
+    .article__home p{
+        
+    }
+
+    .article__home h1{
+        font-size: 70px;
+    }
+
+    .section__icon{
+        justify-content: space-around
+    }
+
+    .section__icon img{
+        width: 45px;
+        height: 45px;
+        object-fit: contain;
+    }
+}
+
+@media (max-width: 576px){
+    .header{
+        justify-content: normal;
+    }
+
+    .div__menu{
+        width: 100%;
+    }
+
+    .ul__menu{
+        display: flex;
+        justify-content: center;
+        padding-right: 0;
+    }
+
+    .article__home{
+        top: 25svh;
+    }
+    .article__home h1{
+        font-size: 60px;
+    }
+    .section__home{
+        display: flex;
+        justify-content: normal;
+        padding-left:  15px;
+        padding-right: 15px;
+        height: 95svh;
+    }
+
+
 }
 
